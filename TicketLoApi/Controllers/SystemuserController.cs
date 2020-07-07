@@ -70,7 +70,7 @@ namespace TicketLoApi.Controllers
             {
                 res.Status = "NG";
                 res.Message = ex.ToString();
-            }
+            }//commit
 
             return res;
         }
